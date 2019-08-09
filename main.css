@@ -22,6 +22,7 @@
   }
 
   nav li{
+    font-size: 16px;
     display: none;
   }
 
@@ -31,6 +32,12 @@
     background-color: #aaa;
   }
   
+  footer {
+    height: 20px;
+    padding-top: 3px;
+    font-size: 12px;
+  }
+
   nav {
     position: fixed;
     top: 0;
@@ -38,7 +45,7 @@
     right: 0;
     z-index: 10;
     width: 100%;
-    height: 45px;
+    height: 36px;
     text-align: right;
   }
   
@@ -59,11 +66,11 @@
   section {
     min-height: 200px;
     padding: 6% 0;
-    background-color: #bbb;
+    background-color:white;
   }
   
   section:nth-child(even) {
-    background-color: #ddd;
+    background-color: white;
   }
 
   @media screen and (min-width: 600px) {

@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="index.js"></script>
 </head>
 <body>
     <nav role="navigation">
         <div class="hamburger">&#9776;</div>
 		<ul class="menu">
-			<li>About me</li>
-			<li>Project</li>
-			<li>Contacts</li>
+			<li><a class="jumper" href="#aboutMe">About me</a></li>
+			<li><a class="jumper" href="#projects">Projects</a></li>
+			<li><a class="jumper" href="#contact">Contacts</a></li>
 		</ul>
     </nav>
     <main role="main">
@@ -21,31 +23,30 @@
             <p>Fullstack developer!</p>
         </header>
 
-        <section>
+        <section id="aboutMe">
             <h3>About me</h3>
             <p>I recently graduated as Computer Engineering major and currently taking the fullstack flex course at Thinkful. I love learning about
                 new technologies and creating useful solfware applications.</p>
         </section>
 
-        <section>
-            <h3>Projects</h3>
-            <div class="projects">
-                <h4>GRE-QuizApp</h4>
-                <img class="projectImg" src="quizApp.png" alt="quizApp">
-                <p>An app that help you practice for you GRE test.</p>
-                <a href="">Github</a>
-                <a href="">Demo</a>
-            </div>
+        <section id="projects">
+                <h3>Projects</h3>
+                <div class="projects">
+                    <h4>GRE-QuizApp</h4>
+                    <img class="projectImg" src="quizApp.png" alt="quizApp">
+                    <p>An app that help you practice for you GRE test.</p>
+                    <a href="https://github.com/HaNguyen0096/GREtest-QuizApp">Github</a>
+                    <a href="https://hanguyen0096.github.io/GREtest-QuizApp/">Demo</a>
+                </div>
         </section>
 
-        <section>
+        <section id="contact">
             <h3>Contacts</h3>
             <ul class="info">
                 <li>Email: hanguyen.0096@gmail.com</li>
-                <li><a href="">Github</a></li>
-                <li><a href="">linkedin</a></li>
+                <li><a href="https://github.com/HaNguyen0096">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/ha-nguyen-2427bb189/">linkedin</a></li>
             </ul>
-
         </section>
 
     </main>

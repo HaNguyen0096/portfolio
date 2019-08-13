@@ -4,7 +4,7 @@ $(".jumper").on("click", function( e ) {
 
     $("body, html").animate({ 
         scrollTop: $( $(this).attr('href') ).offset().top 
-    }, 10);
+    }, slow);
     
 });
 

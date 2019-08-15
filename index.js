@@ -2,7 +2,7 @@
 
 function scrollTop(){
   $(".jumper").on("click", function( e ) {
-    
+    $(".topnav a:not(:first-child)").css("display", "none");
     e.preventDefault();
 
     $("body, html").animate({ 
@@ -21,7 +21,3 @@ function myFunction() {
     }
 }
 
-function st(){
-    scrollTop();
-    $(".topnav a:not(:first-child)").css("display", "none");
-}
